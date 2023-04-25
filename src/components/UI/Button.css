@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 8px;
+  border: 1px solid;
+  cursor: pointer;
+  margin: 3rem auto;
+  background-color: darkblue;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem;
+  display: block;
+}
+
+.btn:hover {
+  background-color: blue;
+  transition-duration: 0.5s;
+}
+
+.btn:active,
+.btn:focus {
+  background-color: red;
+}
